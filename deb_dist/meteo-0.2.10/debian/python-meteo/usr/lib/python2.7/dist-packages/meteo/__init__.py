@@ -1,0 +1,1 @@
+../../../../share/pyshared/meteo/__init__.py

@@ -1,0 +1,7 @@
+dd428c47fa82b1f60f202142e80dad47  usr/share/doc/python-meteo/changelog.Debian.gz
+1164bb4c8ab5907d1a434822206505ef  usr/share/pyshared/meteo-0.2.10.egg-info
+ce3b060f2793e346b897c29cf4497eeb  usr/share/pyshared/meteo/__init__.py
+a3c4140d9038fe9f669db7b6d35e3d57  usr/share/pyshared/meteo/air.py
+9163f2ab73837a628ac83f4efb05307d  usr/share/pyshared/meteo/humidity.py
+67293c318a3721cbcfb7ed7865cd77ba  usr/share/pyshared/meteo/physdyn.py
+242dd77cd6a736e7f88c5b4eed9bc48d  usr/share/pyshared/meteo/radiation.py

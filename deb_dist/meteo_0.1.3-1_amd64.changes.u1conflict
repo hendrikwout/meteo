@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 11 Jan 2012 19:20:25 +0100
+Source: meteo
+Binary: python-meteo
+Architecture: all
+Version: 0.1.3-1
+Distribution: unstable
+Urgency: low
+Maintainer: H. Wouters <hendrikwout@gmail.com>
+Changed-By: H. Wouters <hendrikwout@gmail.com>
+Description: 
+ python-meteo - Meteorological library.
+Changes: 
+ meteo (0.1.3-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.6.0+git
+Checksums-Sha1: 
+ 703e9d5adb6df6daf02125d2c62bc3df397cd446 4164 python-meteo_0.1.3-1_all.deb
+Checksums-Sha256: 
+ c31e06e119e02ea9b474a0f1b8525a5cd39f8fe99b3428ceacc09b55bdb9eabb 4164 python-meteo_0.1.3-1_all.deb
+Files: 
+ 66579bc1820b5dc91fe4ef712ceeddcc 4164 python optional python-meteo_0.1.3-1_all.deb

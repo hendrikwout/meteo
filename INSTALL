@@ -1,0 +1,8 @@
+You can install it just as any Python package from Pypi (more information, see https://wiki.python.org/moin/CheeseShopTutorial):
+- as user: 'python setup.py install'
+- as root (system-wide): 'sudo python setup.py install'
+
+Alternatively, if you are on Debian or Ubuntu, you can install the package and build a
+package by running './ubuntubuild.sh'. It will create the file
+python-<python-package_version.deb> file and install it when having sudo access.
+However, in that case, you need the install the python-stdeb package to be able to build debian-python packages.

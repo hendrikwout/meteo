@@ -1,0 +1,47 @@
+
+
+
+VERSION 0.2.10: sub revision - zo nov 10 15:06:25 CET 2013
+
+Make the package python3-compatible (Hendrik Friedel)
+Adding information on how to install package (see INSTALL)
+Adding build-files to package (cfr. ./ubuntubuild.sh)
+change the dependency on numpy (Hendrik Friedel) to dependency on math
+
+
+VERSION 0.2.9: sub revision - vr nov  8 15:09:10 CET 2013
+
+add license file (Hendrik Friedel)
+
+
+VERSION 0.2.8: sub revision - ma aug 12 17:26:16 CEST 2013
+
+add a simpler calculation for the saturation pressure (esat2), based on clausius-clapeyron
+
+
+VERSION 0.2.7: sub revision - ma aug 12 14:06:48 CEST 2013
+
+use SI units for functions humidity.py 
+
+
+VERSION 0.2.4: sub revision - wo jul 18 17:35:36 CEST 2012
+
+
+
+
+VERSION 0.2.3: sub revision - wo jul 18 17:33:59 CEST 2012
+
+
+
+
+VERSION 0.2.2: sub revision - do mei 10 11:30:52 CEST 2012
+
+correction unstable profile function
+
+
+VERSION 0.2.1: sub revision - di mei  8 13:00:15 CEST 2012
+
+Added some boundary-layer functions
+
+
+

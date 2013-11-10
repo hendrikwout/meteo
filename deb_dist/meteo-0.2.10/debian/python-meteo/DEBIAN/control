@@ -1,0 +1,26 @@
+Package: python-meteo
+Source: meteo
+Version: 0.2.10-1
+Architecture: all
+Maintainer: H. Wouters <hendrikwout@gmail.com>
+Installed-Size: 57
+Depends: python (>= 2.7.1-0ubuntu2), python (<< 2.8)
+Section: python
+Priority: optional
+Description: Meteorological library.
+ ===========
+ meteo
+ ===========
+ .
+ .
+ Meteo is a library in development to work with meteorological data. It
+ currently has procedures for moisture variable conversions between relative
+ humidity, mixing ratio and specific humidity Please let me know if you want
+ to contribute (hendrikwout @ gmail.com)::
+ .
+     #!/usr/bin/env python
+ .
+     from meteo import *
+ .
+     # calculate saturation pressure
+     print(esat(282.15))

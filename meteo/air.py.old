@@ -1,0 +1,46 @@
+# constants describing air
+
+cpd  = 1.006 * 10.**3 # isobaric specific heat of dry air at constant pressure [J/(kg K)]
+
+#hypsometric equation for moist with constant moist potential temperature
+#  input:
+#  w: mixing ratio (optional)
+def z_const_theta(z_0, p_0, p_1, pt, w = 0.0):
+    R_d = 287.04 # specific gas constant for dry air (J kg^-1 K^-1
+    c_pd = 1005.7 # specific heat capacity for dry air J kg^-1 K^-1
+    p00 = 101325.0 # standard pressure
+    g = 9.81 # gravitational accelleration
+    R_d = 286.9 # gass constant of dry air
+    alpha = R_d*(1-0.28*w)/c_pd
+    #result = z_0 +  R_spec * ttemp(pt,p_0)/g * log(p_0/p_1)
+    return z_0 - (p_1**(alpha) - p_0**(alpha))/(alpha) * R_d *pt / g / (p00**alpha)
+
+# 
+# def t_from_theta(ptemp,pressure):
+#     #standard pressure:
+#     p0 = 101325.0 # reference pressure (Pa)
+#     R_d = 287.04 # specific gas constant for dry air (J kg^-1 K^-1
+#     c_pd = 1005.7 # specific heat capacity for dry air J kg^-1 K^-1
+#     return(ptemp*(pressure/p0)^(R_d/c_pd))
+# 
+# def theta_from_t(ptemp,pressure):
+#     #standard pressure:
+#     p0 = 101325.0 # reference pressure (Pa)
+#     R_d = 287.04 # specific gas constant for dry air (J kg^-1 K^-1
+#     c_pd = 1005.7 # specific heat capacity for dry air J kg^-1 K^-1
+#     return(ptemp*(pressure/p0)^(R_d/c_pd))
+# 
+# def t_from_thetam(temp,pressure,w):
+#     #standard pressure:
+#     p0 = 101325.0 # reference pressure (Pa)
+#     R_d = 287.04 # specific gas constant for dry air (J kg^-1 K^-1
+#     c_pd = 1005.7 # specific heat capacity for dry air J kg^-1 K^-1
+#     return(temp/((pressure/p0)**(R_d*(1-0.28*w)/c_pd)))
+# 
+# t_from_thetam(
+# 
+# 
+# thetam_from_t(
+# 
+# # include moist
+# def z_const_thetam

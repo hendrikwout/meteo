@@ -1,0 +1,12 @@
+recursive-include examples
+include LICENCE.txt
+include CHANGES.txt
+include VERSION
+include INSTALL
+include TODO
+include LASTBUILD
+include VERSION
+include ubuntubuild.sh
+include MANIFEST.in
+recursive-include examples *
+

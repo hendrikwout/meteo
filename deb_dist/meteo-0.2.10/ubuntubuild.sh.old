@@ -1,0 +1,10 @@
+#!/bin/sh
+
+PACKAGENAME=meteo
+VERSION=0.1.3
+find ./deb_dist/* -type d -exec rm -r {} \;
+python setup.py sdist
+python setup.py --command-packages=stdeb.command bdist_deb
+sudo dpkg -r 'python-'$PACKAGENAME
+sudo dpkg -i 'deb_dist/python-'$PACKAGENAME'_'$VERSION'-1_all.deb'
+python setup.py sdist upload
